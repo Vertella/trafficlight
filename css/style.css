@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(0, 0, 0);
+
+}
+
+.lights {
+    height: 650px;
+    width: 220px;
+    background-color: white;
+    margin-left: 45%;
+    margin-top: 10%;
+    border: 5px solid gray;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.light {
+height: 180px;
+width: 180px;
+display: flex;
+border-radius: 100px;
+
+}
+
+.red {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: red;
+    border: 10px solid darkred;
+}
+
+.redflare {
+    height: 50%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.429);
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    
+}
+
+.yellow {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    background-color: yellow;
+    border: 10px solid orange;
+    
+}
+
+.yellowflare {
+    height: 50%;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.72);
+    border-bottom-right-radius: 100px;
+}
+
+.green {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: green;
+    border: 10px solid darkgreen;
+}
+
+.greenflare {
+    height: 50%;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.429);
+    border-bottom-left-radius: 100px;
+}
+
+
